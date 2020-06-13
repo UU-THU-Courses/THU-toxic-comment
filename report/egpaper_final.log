@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7445) (preloaded format=pdflatex 2020.6.14)  14 JUN 2020 05:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7445) (preloaded format=pdflatex 2020.6.14)  14 JUN 2020 05:45
 entering extended mode
 **./egpaper_final.tex
 (egpaper_final.tex
@@ -347,96 +347,96 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
  (/home/usama/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 
 
 (/home/usama/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
-0.
+2.
 
 (/home/usama/.miktex/texmfs/install/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 1097) in paragraph at lines 54--55
+Underfull \hbox (badness 1097) in paragraph at lines 56--57
 []\OT1/ptm/m/it/10 Flood of information is produced on a daily basis
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 54--55
+Underfull \hbox (badness 1762) in paragraph at lines 56--57
 \OT1/ptm/m/it/10 interactive communications among users. While this
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 54--55
+Underfull \hbox (badness 1412) in paragraph at lines 56--57
 \OT1/ptm/m/it/10 situation contributed significantly to quality of human
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 54--55
+Underfull \hbox (badness 1337) in paragraph at lines 56--57
 \OT1/ptm/m/it/10 proposed approaches. However, while these methods
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 54--55
+Underfull \hbox (badness 1072) in paragraph at lines 56--57
 \OT1/ptm/m/it/10 and global place. In this work, we employ multiple
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 63--66
+Underfull \hbox (badness 2961) in paragraph at lines 65--68
 []\OT1/ptm/m/n/10 Active research on the topic deals with common
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 67--68
+Underfull \hbox (badness 1005) in paragraph at lines 69--70
 \OT1/ptm/m/n/10 likely to make someone leave a discussion. If these
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--99
+Underfull \hbox (badness 10000) in paragraph at lines 73--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--99
+Underfull \hbox (badness 10000) in paragraph at lines 73--101
 
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 71--99
+Underfull \hbox (badness 3826) in paragraph at lines 73--101
 \OT1/ptm/b/n/10 Multi-class approaches. \OT1/ptm/m/n/10 Besides traditional bin
 ary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--99
+Underfull \hbox (badness 10000) in paragraph at lines 73--101
 
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 71--99
+Underfull \hbox (badness 1796) in paragraph at lines 73--101
 \OT1/ptm/b/n/10 Shallow classification and neural networks. \OT1/ptm/m/n/10 Tox
 ic
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 71--99
+Underfull \hbox (badness 2922) in paragraph at lines 73--101
 \OT1/ptm/m/n/10 and approached by either methods including manual
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 71--99
+Underfull \hbox (badness 1009) in paragraph at lines 73--101
 \OT1/ptm/m/n/10 and Bi-LSTM) and shallow learners, such as Logistic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--99
+Underfull \hbox (badness 10000) in paragraph at lines 73--101
 
  []
 
@@ -444,72 +444,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--99
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 1515) in paragraph at lines 104--105
+\OT1/ptm/m/n/10 founded by Jigsaw and Google, builds technology to
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 108--109
+\OT1/ptm/m/n/10 excited to learn whether these results "translate" (pun
+ []
 
 <Figures/BERTbasedModel.png, id=91, 529.98pt x 251.43938pt>
 File: Figures/BERTbasedModel.png Graphic file (type png)
 <use Figures/BERTbasedModel.png>
-Package pdftex.def Info: Figures/BERTbasedModel.png  used on input line 110.
+Package pdftex.def Info: Figures/BERTbasedModel.png  used on input line 118.
 (pdftex.def)             Requested size: 236.89713pt x 112.39084pt.
+[2]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-19.
-
-(/home/usama/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
+27.
+ (/home/usama/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [2 <./Figures/BERTbasedModel.png>]
-<Figures/EnsempleCoupleOfModels.png, id=117, 292.09125pt x 210.03468pt>
+)
+<Figures/EnsempleCoupleOfModels.png, id=116, 292.09125pt x 210.03468pt>
 File: Figures/EnsempleCoupleOfModels.png Graphic file (type png)
 <use Figures/EnsempleCoupleOfModels.png>
 Package pdftex.def Info: Figures/EnsempleCoupleOfModels.png  used on input line
- 130.
+ 138.
 (pdftex.def)             Requested size: 236.89713pt x 170.35149pt.
 
-Underfull \hbox (badness 1721) in paragraph at lines 155--156
+Underfull \hbox (badness 1721) in paragraph at lines 163--164
 \OT1/ptm/m/n/10 a more compact version of BERT called DistilBERT
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 157--158
+Underfull \hbox (badness 1122) in paragraph at lines 165--166
 \OT1/ptm/m/n/10 activation function to do the classification. With the
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 159--160
+Underfull \hbox (badness 1199) in paragraph at lines 167--168
 []\OT1/ptm/m/n/10 Then we investigated improving this model in two
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 166--167
+Underfull \hbox (badness 1845) in paragraph at lines 174--175
 []\OT1/ptm/m/n/10 We then trained the model for 10 epochs on the
  []
 
-
-Underfull \hbox (badness 1122) in paragraph at lines 179--180
+[3 <./Figures/BERTbasedModel.png> <./Figures/EnsempleCoupleOfModels.png>]
+Underfull \hbox (badness 1122) in paragraph at lines 187--188
 []\OT1/ptm/m/n/10 In this experiment we tried to utilize the available
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 179--180
+Underfull \hbox (badness 3668) in paragraph at lines 187--188
 \OT1/ptm/m/n/10 memory more efficiently by explicitly releasing any
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 179--180
+Underfull \hbox (badness 1377) in paragraph at lines 187--188
 \OT1/ptm/m/n/10 unneeded object. This allowed us to process longer
  []
 
-[3 <./Figures/EnsempleCoupleOfModels.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 []\OT1/ptm/m/n/10 Furthermore, we tried to use the Off-shelf
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 198--199
+Underfull \hbox (badness 2050) in paragraph at lines 206--207
 []\OT1/ptm/m/n/10 A brief summary of our submissions is presented
  []
 
 
-Overfull \hbox (7.2224pt too wide) in paragraph at lines 202--222
+Overfull \hbox (7.2224pt too wide) in paragraph at lines 210--230
  [] 
  []
 
@@ -554,7 +561,7 @@ Underfull \hbox (badness 2846) in paragraph at lines 27--34
  on
  []
 
-
+[4]
 Underfull \hbox (badness 2443) in paragraph at lines 46--52
 \OT1/ptm/m/n/9 Automated hate speech detection and the problem of
  []
@@ -565,7 +572,7 @@ Underfull \hbox (badness 2781) in paragraph at lines 46--52
 nth
  []
 
-[4]
+
 Underfull \hbox (badness 1297) in paragraph at lines 96--107
 []\OT1/ptm/m/n/9 J. Golbeck, Z. Ashktorab, R. O. Banjo, A. Berlinger,
  []
@@ -617,7 +624,7 @@ Underfull \hbox (badness 2384) in paragraph at lines 177--185
 \OT1/ptm/m/it/9 To Dialog Agents Workshop co-located with the 26th
  []
 
-
+[5]
 Underfull \hbox (badness 1168) in paragraph at lines 195--202
 []\OT1/ptm/m/n/9 D. Robinson, Z. Zhang, and J. Tepper.  Hate speech
  []
@@ -643,22 +650,20 @@ Underfull \hbox (badness 3312) in paragraph at lines 219--224
 \OT1/ptm/m/n/9 Fe, New Mexico, USA, Aug. 2018. Association for
  []
 
-[5]
+
 Underfull \hbox (badness 4316) in paragraph at lines 241--247
 \OT1/ptm/m/it/9 Science\OT1/ptm/m/n/9 , pages 138--142, Austin, Texas, Nov. 201
 6.
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
- [6
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (egpaper_final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 234.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 242.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
  6769 strings out of 482730
@@ -667,14 +672,14 @@ Here is how much of TeX's memory you used:
  22310 multiletter control sequences out of 15000+200000
  560295 words of font info for 80 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
- 38i,10n,31p,1430b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,10n,31p,1430b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/home/usama/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/usama/
 .miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/usama/.mi
 ktex/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb></home/usama/.miktex/tex
 mfs/install/fonts/type1/urw/times/utmb8a.pfb></home/usama/.miktex/texmfs/instal
 l/fonts/type1/urw/times/utmr8a.pfb></home/usama/.miktex/texmfs/install/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on egpaper_final.pdf (6 pages, 172007 bytes).
+Output written on egpaper_final.pdf (6 pages, 173113 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)
