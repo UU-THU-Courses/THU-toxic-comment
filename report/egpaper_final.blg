@@ -1,48 +1,58 @@
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: egpaper_final.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: ieee.bst
+Reallocating 'name_of_file' (item size: 1) to 6 items.
 Database file #1: egbib.bib
 Warning--to sort, need author or key in Jigsaw
-You've used 2 entries,
+Warning--to sort, need author or key in Jigsaw2
+Warning--empty booktitle in r02
+Warning--empty booktitle in r06
+Warning--can't use both volume and number fields in r06
+Warning--empty booktitle in r01
+Warning--empty booktitle in r04
+Warning--empty booktitle in r13
+Warning--empty booktitle in r03
+You've used 39 entries,
             2120 wiz_defined-function locations,
-            508 strings with 4093 characters,
-and the built_in function-call counts, 491 in all, are:
-= -- 44
-> -- 24
-< -- 0
-+ -- 10
-- -- 8
-* -- 29
-:= -- 85
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 10
+            738 strings with 14775 characters,
+and the built_in function-call counts, 19461 in all, are:
+= -- 1900
+> -- 1093
+< -- 37
++ -- 411
+- -- 369
+* -- 1362
+:= -- 2976
+add.period$ -- 146
+call.type$ -- 39
+change.case$ -- 270
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 17
-empty$ -- 41
-format.name$ -- 8
-if$ -- 101
+cite$ -- 48
+duplicate$ -- 809
+empty$ -- 1411
+format.name$ -- 369
+if$ -- 4319
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 13
-num.names$ -- 2
-pop$ -- 17
+int.to.str$ -- 39
+missing$ -- 37
+newline$ -- 198
+num.names$ -- 102
+pop$ -- 364
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 231
 quote$ -- 0
-skip$ -- 12
+skip$ -- 659
 stack$ -- 0
-substring$ -- 10
-swap$ -- 2
-text.length$ -- 0
+substring$ -- 1041
+swap$ -- 353
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
-warning$ -- 1
-while$ -- 2
-width$ -- 3
-write$ -- 21
-(There was 1 warning)
+type$ -- 156
+warning$ -- 9
+while$ -- 170
+width$ -- 41
+write$ -- 464
+(There were 9 warnings)

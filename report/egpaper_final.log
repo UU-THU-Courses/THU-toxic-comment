@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.27)  13 JUN 2020 19:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7445) (preloaded format=pdflatex 2020.6.14)  14 JUN 2020 05:27
 entering extended mode
 **./egpaper_final.tex
 (egpaper_final.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-04-06>
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+L3 programming layer <2020-06-03>
+(/home/usama/.miktex/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+(/home/usama/.miktex/texmfs/install/tex/latex/base/size10.clo
 File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -29,11 +29,11 @@ LaTeX Warning: You have requested package `eso-pic',
                but the package provides `everyshi'.
 
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+) (/home/usama/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\xspace.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 CVPR 8.5 x 11-Inch Proceedings Style `cvpr.sty'.
@@ -49,27 +49,27 @@ CVPR 8.5 x 11-Inch Proceedings Style `cvpr.sty'.
 \cv@tot=\count177
 \cv@tmpc@=\count178
 \cv@tmpc=\count179
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\times.sty"
+) (/home/usama/.miktex/texmfs/install/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\epsfig.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+(/home/usama/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+(/home/usama/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen138
@@ -78,24 +78,24 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \epsfxsize=\dimen140
 \epsfysize=\dimen141
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen142
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen143
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count180
@@ -136,10 +136,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -147,102 +147,102 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+(/home/usama/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+(/home/usama/.miktex/texmfs/install/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/infwarerr\infwarerr.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetkeys.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/pdfescape\pdfescape.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/letltxmacro\letltxmacro.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen151
 \Hy@linkcounter=\count192
 \Hy@pagecounter=\count193
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+(/home/usama/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/intcalc\intcalc.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count194
-Package hyperref Info: Option `breaklinks' set `true' on input line 4421.
-Package hyperref Info: Option `bookmarks' set `false' on input line 4421.
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4338.
+Package hyperref Info: Option `bookmarks' set `false' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks OFF on input line 4806.
+Package hyperref Info: Bookmarks OFF on input line 4723.
 \c@Hy@tempcnt=\count195
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
+LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen152
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/bigintcalc\bigintcalc.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count196
 \Field@Width=\dimen153
 \Fld@charsize=\dimen154
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 \Hy@abspage=\count197
@@ -251,20 +251,20 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
-File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+(/home/usama/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/atveryend\atveryend.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
 \Fld@listcount=\count266
 \c@bookmark@seq@number=\count267
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/rerunfilecheck\rerunfilecheck.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/uniquecounter\uniquecounter.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -272,8 +272,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+(/home/usama/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count268
 \l__pdf_internal_box=\box49
 )
@@ -298,19 +298,20 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
 5.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+
+(/home/usama/.miktex/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EveryShipout initializing macros
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+(/home/usama/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+(/home/usama/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count269
 \scratchdimen=\dimen155
@@ -323,7 +324,7 @@ Package color Info: Driver file: pdftex.def on input line 147.
 \MPnumerator=\count273
 \makeMPintoPDFobject=\count274
 \everyMPtoPDFconversion=\toks22
-) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+) (/home/usama/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -331,14 +332,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 \AtBeginShipoutBox=\box51
 Package atbegshi Info: Package `everyshi' patched.
 Package hyperref Info: Link coloring OFF on input line 25.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/refcount\refcount.sty"
+(/home/usama/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
+(/home/usama/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestring.s
+ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count275
@@ -348,96 +349,334 @@ LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
 
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+ (/home/usama/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+(/home/usama/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 5
 0.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
+(/home/usama/.miktex/texmfs/install/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<Figures/BERTbasedModel.png, id=6, 529.98pt x 251.43938pt>
+Underfull \hbox (badness 1097) in paragraph at lines 54--55
+[]\OT1/ptm/m/it/10 Flood of information is produced on a daily basis
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 54--55
+\OT1/ptm/m/it/10 interactive communications among users. While this
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 54--55
+\OT1/ptm/m/it/10 situation contributed significantly to quality of human
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 54--55
+\OT1/ptm/m/it/10 proposed approaches. However, while these methods
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 54--55
+\OT1/ptm/m/it/10 and global place. In this work, we employ multiple
+ []
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 63--66
+[]\OT1/ptm/m/n/10 Active research on the topic deals with common
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 67--68
+\OT1/ptm/m/n/10 likely to make someone leave a discussion. If these
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--99
+
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 71--99
+\OT1/ptm/b/n/10 Multi-class approaches. \OT1/ptm/m/n/10 Besides traditional bin
+ary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--99
+
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 71--99
+\OT1/ptm/b/n/10 Shallow classification and neural networks. \OT1/ptm/m/n/10 Tox
+ic
+ []
+
+
+Underfull \hbox (badness 2922) in paragraph at lines 71--99
+\OT1/ptm/m/n/10 and approached by either methods including manual
+ []
+
+
+Underfull \hbox (badness 1009) in paragraph at lines 71--99
+\OT1/ptm/m/n/10 and Bi-LSTM) and shallow learners, such as Logistic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--99
+
+ []
+
+[1{/home/usama/.miktex/texmfs/data/pdftex/config/pdftex.map}
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<Figures/BERTbasedModel.png, id=91, 529.98pt x 251.43938pt>
 File: Figures/BERTbasedModel.png Graphic file (type png)
 <use Figures/BERTbasedModel.png>
-Package pdftex.def Info: Figures/BERTbasedModel.png  used on input line 75.
+Package pdftex.def Info: Figures/BERTbasedModel.png  used on input line 110.
 (pdftex.def)             Requested size: 236.89713pt x 112.39084pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
-4.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+19.
 
-("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ts1ptm.fd"
+(/home/usama/.miktex/texmfs/install/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+) [2 <./Figures/BERTbasedModel.png>]
+<Figures/EnsempleCoupleOfModels.png, id=117, 292.09125pt x 210.03468pt>
+File: Figures/EnsempleCoupleOfModels.png Graphic file (type png)
+<use Figures/EnsempleCoupleOfModels.png>
+Package pdftex.def Info: Figures/EnsempleCoupleOfModels.png  used on input line
+ 130.
+(pdftex.def)             Requested size: 236.89713pt x 170.35149pt.
 
-LaTeX Warning: Citation `Jigsaw2' on page 4321 undefined on input line 97.
+Underfull \hbox (badness 1721) in paragraph at lines 155--156
+\OT1/ptm/m/n/10 a more compact version of BERT called DistilBERT
+ []
 
-[4321{C:/Users/TOSHIBA/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+Underfull \hbox (badness 1122) in paragraph at lines 157--158
+\OT1/ptm/m/n/10 activation function to do the classification. With the
+ []
 
 
- <./Figures/BERTbasedModel.png>]
+Underfull \hbox (badness 1199) in paragraph at lines 159--160
+[]\OT1/ptm/m/n/10 Then we investigated improving this model in two
+ []
 
-LaTeX Warning: Citation `Jigsaw2' on page 4322 undefined on input line 122.
 
-[4322]
-Overfull \hbox (7.2224pt too wide) in paragraph at lines 159--179
+Underfull \hbox (badness 1845) in paragraph at lines 166--167
+[]\OT1/ptm/m/n/10 We then trained the model for 10 epochs on the
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 179--180
+[]\OT1/ptm/m/n/10 In this experiment we tried to utilize the available
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 179--180
+\OT1/ptm/m/n/10 memory more efficiently by explicitly releasing any
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 179--180
+\OT1/ptm/m/n/10 unneeded object. This allowed us to process longer
+ []
+
+[3 <./Figures/EnsempleCoupleOfModels.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+[]\OT1/ptm/m/n/10 Furthermore, we tried to use the Off-shelf
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 198--199
+[]\OT1/ptm/m/n/10 A brief summary of our submissions is presented
+ []
+
+
+Overfull \hbox (7.2224pt too wide) in paragraph at lines 202--222
  [] 
  []
 
 (egpaper_final.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
-[]\OT1/ptm/m/n/9 Jigsaw mul-ti-lin-gual toxic com-ment clas-si-fi-
+[]\OT1/ptm/m/n/9 Jigsaw multilingual toxic comment classification.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
-\OT1/ptm/m/n/9 ca-tion.  []$\OT1/pcr/m/n/9 https : / / www . kaggle . com / c /
-
+\OT1/ptm/m/n/9 https://www.kaggle.com/c/jigsaw-multilingual-toxic-
  []
 
 
-Overfull \hbox (41.8077pt too wide) in paragraph at lines 4--8
-\OT1/pcr/m/n/9 jigsaw-[]multilingual-[]toxic-[]comment-[]classification$[]\OT1/
-ptm/m/n/9 .
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+[]\OT1/ptm/m/n/9 Jigsaw unintended bias in toxicity classification.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+\OT1/ptm/m/n/9 https://www.kaggle.com/c/jigsaw-unintended-bias-in-
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 16--19
+\OT1/ptm/m/n/9 learning for hate speech detection in tweets.  volume
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 21--25
+\OT1/ptm/m/n/9 An application of machine classification and statistical
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 27--34
+[]\OT1/ptm/m/n/9 Y. Chen, Y. Zhou, S. Zhu, and H. Xu.  Detecting
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 27--34
+\OT1/ptm/m/n/9 online safety.  In \OT1/ptm/m/it/9 2012 International Conference
+ on
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 46--52
+\OT1/ptm/m/n/9 Automated hate speech detection and the problem of
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 46--52
+\OT1/ptm/m/n/9 offensive language.  In \OT1/ptm/m/it/9 Proceedings of the Eleve
+nth
+ []
+
+[4]
+Underfull \hbox (badness 1297) in paragraph at lines 96--107
+[]\OT1/ptm/m/n/9 J. Golbeck, Z. Ashktorab, R. O. Banjo, A. Berlinger,
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 96--107
+\OT1/ptm/m/n/9 S. Bhagwan, C. Buntain, P. Cheakalos, A. A. Geller,
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 109--115
+\OT1/ptm/m/n/9 468{469, New York, NY, USA, 2004. Association for
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 126--132
+[]\OT1/ptm/m/n/9 A. Jha and R. Mamidi.  When does a compliment
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 126--132
+\OT1/ptm/m/n/9 7--16, Vancouver, Canada, Aug. 2017. Association for
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 142--146
+\OT1/ptm/m/n/9 against blacks.  In \OT1/ptm/m/it/9 Proceedings of the Twenty-Se
+venth
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 148--154
+[]\OT1/ptm/m/n/9 Y. Mehdad and J. R. Tetreault.  Do characters abuse
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 156--161
+[]\OT1/ptm/m/n/9 C. Nobata, J. Tetreault, A. Thomas, Y. Mehdad, and
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 163--170
+\OT1/ptm/m/it/9 4, 2017\OT1/ptm/m/n/9 , pages 41--45. Association for Computati
+onal
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 177--185
+\OT1/ptm/m/it/9 To Dialog Agents Workshop co-located with the 26th
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 195--202
+[]\OT1/ptm/m/n/9 D. Robinson, Z. Zhang, and J. Tepper.  Hate speech
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 195--202
+\OT1/ptm/m/n/9 detection on twitter: Feature engineering v.s. feature
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 211--217
+\OT1/ptm/m/it/9 Workshop on Natural Language Processing for Social
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 211--217
+\OT1/ptm/m/it/9 3, 2017\OT1/ptm/m/n/9 , pages 1--10. Association for Computatio
+nal
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 219--224
+\OT1/ptm/m/n/9 Fe, New Mexico, USA, Aug. 2018. Association for
+ []
+
+[5]
+Underfull \hbox (badness 4316) in paragraph at lines 241--247
+\OT1/ptm/m/it/9 Science\OT1/ptm/m/n/9 , pages 138--142, Austin, Texas, Nov. 201
+6.
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
- [4323
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
+ [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
  (egpaper_final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 191.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
  ) 
 Here is how much of TeX's memory you used:
- 6681 strings out of 480930
- 98093 string characters out of 2909541
- 364026 words of memory out of 3000000
- 22373 multiletter control sequences out of 15000+200000
- 557085 words of font info for 80 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,11n,31p,942b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
-times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on egpaper_final.pdf (3 pages, 132459 bytes).
+ 6769 strings out of 482730
+ 99731 string characters out of 2948983
+ 361861 words of memory out of 3000000
+ 22310 multiletter control sequences out of 15000+200000
+ 560295 words of font info for 80 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 38i,10n,31p,1430b,468s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/home/usama/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc}</home/usama/
+.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/usama/.mi
+ktex/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb></home/usama/.miktex/tex
+mfs/install/fonts/type1/urw/times/utmb8a.pfb></home/usama/.miktex/texmfs/instal
+l/fonts/type1/urw/times/utmr8a.pfb></home/usama/.miktex/texmfs/install/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on egpaper_final.pdf (6 pages, 172007 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

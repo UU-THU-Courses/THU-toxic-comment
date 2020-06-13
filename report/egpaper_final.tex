@@ -21,17 +21,17 @@
 
 % Pages are numbered in submission mode, and unnumbered in camera-ready
 %\ifcvprfinal\pagestyle{empty}\fi
-\setcounter{page}{4321}
+%\setcounter{page}{4321}
 \begin{document}
 
 %%%%%%%%% TITLE
 \title{ Toxic Comment Classification }
 
 \author{Usama Zafar\\
-dept. Computer Science and Technology\\
+Dept. Computer Science and Technology\\
 Tsinghua University \\
 Beijing, China\\
-{\tt\small firstauthor@i1.org}
+{\tt\small sham19@mails.tsinghua.edu.cn}
 % For a paper whose authors are all at the same institution,
 % omit the following lines up until the closing ``}''.
 % Additional authors and addresses can be added with ``\and'',
@@ -39,7 +39,7 @@ Beijing, China\\
 % To save space, use either the email address or home page, not both
 \and
 Abdalwhb Abdalwhab 2019380044\\
-dept. Computer Science and Technology\\
+Dept. Computer Science and Technology\\
 Tsinghua University \\
 Beijing, China\\
 {\tt\small Abdalwhab.Bakheet@gmail.com}
@@ -50,22 +50,33 @@ Beijing, China\\
 
 %%%%%%%%% ABSTRACT
 \begin{abstract}
-   The ABSTRACT is to be in fully-justified italicized text, at the top
-   of the left-hand column, below the author and affiliation
-   information. Use the word ``Abstract'' as the title, in 12-point
-   Times, boldface type, centered relative to the column, initially
-   capitalized. The abstract is to be in 10-point, single-spaced type.
-   Leave two blank lines after the Abstract, then begin the main text.
-   Look at previous CVPR abstracts to get a feel for style and length.
+
+Flood of information is produced on a daily basis through the global internet usage arising from the online interactive communications among users. While this situation contributed significantly to quality of human life, unfortunately it involves enormous dangers, since online texts with high toxicity can cause personal attacks, harassment and bullying. This has triggered both industrial and academic community. Toxic comment classification has become an active research field with many recently proposed approaches. However, while these methods address some of the task's challenges other still remain unsolved and directions for further research are need. One such challenge being multilingual toxic comments. Classifying multilingual data is challenging and difficult. Not enough work has been carried out in this domain even though our current internet is a multilingual, multicultural and global place. In this work, we employ multiple models, such as pre-trained BERT, Distilled BERT, Bi-LSTM models to identify toxic comments among text data provided by Kaggle's "Jigsaw Multilingual Toxic Comment Classification Challenge". Finally, we create an ensemble of multiple well performing models and present our results. The reported accuracy of the toxic comment identification by our ensemble is certainly promising and provides a good insight into what to expect when dealing with multilingual data.
+
 \end{abstract}
 
 %%%%%%%%% BODY TEXT
 \section{Introduction}
 
+Keeping online conversations constructive and inclusive is a crucial task for platform providers. It only takes one toxic comment to sour an entire conversation. Automatic classification of toxic comments, such as hate speech, threats, and insults, can help in keeping discussions fruitful. In addition, new regulations in certain European countries have been established enforcing to delete illegal content in less than 72 hours.\footnote {https://www.bbc.com/news/technology-42510868}
+
+Active research on the topic deals with common challenges of natural language processing,
+such as long-range dependencies or misspelled and idiosyncratic words. Proposed solutions include bidirectional recurrent neural networks with attention \cite{r01} and the use of pretrained word embeddings \cite{r02}. However, many classifiers suffer from insufficient variance in methods and training data and therefore often tend to fail on the long tail of real world data \cite{r03}. For future research, it is essential to know which challenges are already addressed by state-of-the-art classifiers and what current solutions are still error-prone.
+
 This project aims at tackling the Jigsaw Multilingual Toxic Comment Classification \cite{Jigsaw}. Where a toxic comment is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. If these toxic contributions can be identified, then we can plan and execute polices like removing them or notifying their corresponding users. Eventually, this will help us taking a step towards having a safer, more collaborative internet. 
 
 \section{Related Work}
-\section{Problem Definition}
+
+In this section we present some related work published in the past. Although it is not an easy job to tell what is toxic comment classification and what is not since, most NLP publications can be modified one way or the other to solve this particular problem.\\\\
+\textbf{Task definitions.} Toxic comment classification is not clearly distinguishable from its related tasks. Besides looking at toxicity of online comments \cite{r04}; \cite{r05}, related research includes the investigation of hate speech \cite{r02}; \cite{r06}; \cite{r07}; \cite{r08}; \cite{r09}; \cite{r10}; \cite{r11}; \cite{r12}, online harassment \cite{r13}; \cite{r14}, abusive language \cite{r15}; \cite{r16}, cyberbullying \cite{r17}; \cite{r18}; \cite{r19}; \cite{r20} and offensive language \cite{r21}; \cite{r22}. Each field uses different definitions for their classification, still similar methods can often be applied to different tasks. In our work we focus on toxic comment detection and show that the same method can effectively be applied to a hate speech detection task.\\\\
+\textbf{Multi-class approaches.} Besides traditional binary classification tasks, related work considers different aspects of toxic language, such as “racism” \cite{r23}; \cite{r24}; \cite{r25} and “sexism” \cite{r26}; \cite{r27}, or the severity of toxicity \cite{r07}; \cite{r28}. These tasks are framed as multi-class problems, where each sample is labeled with exactly one class outof a set of multiple classes. The great majorityof related research considers only multi-class problems. This is remarkable, considering that in real-world scenarios toxic comment classificationcan often be seen as a multi-label problem, withuser comments fulfilling different predefinedcriteria at the same time. We therefore investigateboth a multi-label dataset containing six differentforms of toxic language and a multi-class datasetcontaining three mutually exclusive classes oftoxic language.\\\\
+\textbf{Shallow classification and neural networks.} Toxic comment identification is a supervised classification task and approached by either methods including manual feature engineering \cite{r06}; \cite{r15};\cite{r24}; \cite{r07}; \cite{r29}; \cite{r30}; \cite{r31}; \cite{r32} or the use of(deep) neural networks \cite{r33};\cite{r01}; \cite{r02}; \cite{r11}; \cite{r16}; \cite{r08}. While in the first case manually selected features are combined into input vectors and directly used for classification, neural network approaches are supposed to automaticallylearn abstract features above these input features. Neural network approaches appear to be more effective for learning \cite{r06}, whilefeature-based approaches preserve some sort ofexplainability. We focus in this paper on baselines using deep neural networks (e.g. CNN andBi-LSTM) and shallow learners, such as LogisticRegression approaches on word n-grams and character n-grams.\\\\
+\textbf{Ensemble learning.} \cite{r06} studied advantages of ensembles of different classifiers. They combined results from threefeature-based classifiers. Further the combinationof results from Logistic Regression and a Neural Network has been studied \cite{r34}; \cite{r35}. Zimmermanet al. \cite{r36} investigated ensembling models withdifferent hyper-parameters. We use a similar approach with a very powerful pretrained model BERT and its variations thereof.
+
+\section{Dataset and Task}
+
+NEED TO ADD DETAILS OF THE DATASET AND TASK
+
 \section{Proposed Methods}
 Figure~\ref{BERTbasedModel} shows our BERT-based\cite{devlin2018bert} baseline model, we started by a specialized pre-trained multilingual model called m-BERT. We used the pretrained weights to initialize both the tokenizer and the model.
 
