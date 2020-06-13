@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{Jigsaw}
+Jigsaw multilingual toxic comment classification.
+\newblock
+  \url{https://www.kaggle.com/c/jigsaw-multilingual-toxic-comment-classification}.
+\newblock Accessed: 2020-06-13.
+
+\bibitem{devlin2018bert}
+J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock {\em arXiv preprint arXiv:1810.04805}, 2018.
+
+\end{thebibliography}
