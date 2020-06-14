@@ -63,17 +63,41 @@ Flood of information is produced on a daily basis through the global internet us
 Keeping online conversations constructive and inclusive is a crucial task for platform providers. It only takes one toxic comment to sour an entire conversation. Automatic classification of toxic comments, such as hate speech, threats, and insults, can help in keeping discussions fruitful. In addition, new regulations in certain European countries have been established enforcing to delete illegal content in less than 72 hours.\footnote {https://www.bbc.com/news/technology-42510868}
 
 Active research on the topic deals with common challenges of natural language processing,
-such as long-range dependencies or misspelled and idiosyncratic words. Proposed solutions include bidirectional recurrent neural networks with attention \cite{r01} and the use of pretrained word embeddings \cite{r02}. However, many classifiers suffer from insufficient variance in methods and training data and therefore often tend to fail on the long tail of real world data \cite{r03}. For future research, it is essential to know which challenges are already addressed by state-of-the-art classifiers and what current solutions are still error-prone.
+such as long-range dependencies or misspelled
+ and idiosyncratic words. Proposed solutions include bidirectional recurrent neural networks with attention \cite{r01} and the use of pretrained word embeddings \cite{r02}. However, many classifiers suffer from insufficient variance in methods and training data and therefore often tend to fail on the long tail of real world data \cite{r03}. For future research, it is essential to know which challenges are already addressed by state-of-the-art classifiers and what current solutions are still error-prone.
 
 This project aims at tackling the Jigsaw Multilingual Toxic Comment Classification \cite{Jigsaw}. Where a toxic comment is defined as anything rude, disrespectful or otherwise likely to make someone leave a discussion. If these toxic contributions can be identified, then we can plan and execute polices like removing them or notifying their corresponding users. Eventually, this will help us taking a step towards having a safer, more collaborative internet. 
 
 \section{Related Work}
 
 In this section we present some related work published in the past. Although it is not an easy job to tell what is toxic comment classification and what is not since, most NLP publications can be modified one way or the other to solve this particular problem.\\\\
-\textbf{Task definitions.} Toxic comment classification is not clearly distinguishable from its related tasks. Besides looking at toxicity of online comments \cite{r04}; \cite{r05}, related research includes the investigation of hate speech \cite{r02}; \cite{r06}; \cite{r07}; \cite{r08}; \cite{r09}; \cite{r10}; \cite{r11}; \cite{r12}, online harassment \cite{r13}; \cite{r14}, abusive language \cite{r15}; \cite{r16}, cyberbullying \cite{r17}; \cite{r18}; \cite{r19}; \cite{r20} and offensive language \cite{r21}; \cite{r22}. Each field uses different definitions for their classification, still similar methods can often be applied to different tasks. In our work we focus on toxic comment detection and show that the same method can effectively be applied to a hate speech detection task.\\\\
-\textbf{Multi-class approaches.} Besides traditional binary classification tasks, related work considers different aspects of toxic language, such as “racism” \cite{r23}; \cite{r24}; \cite{r25} and “sexism” \cite{r26}; \cite{r27}, or the severity of toxicity \cite{r07}; \cite{r28}. These tasks are framed as multi-class problems, where each sample is labeled with exactly one class outof a set of multiple classes. The great majorityof related research considers only multi-class problems. This is remarkable, considering that in real-world scenarios toxic comment classificationcan often be seen as a multi-label problem, withuser comments fulfilling different predefinedcriteria at the same time. We therefore investigateboth a multi-label dataset containing six differentforms of toxic language and a multi-class datasetcontaining three mutually exclusive classes oftoxic language.\\\\
-\textbf{Shallow classification and neural networks.} Toxic comment identification is a supervised classification task and approached by either methods including manual feature engineering \cite{r06}; \cite{r15};\cite{r24}; \cite{r07}; \cite{r29}; \cite{r30}; \cite{r31}; \cite{r32} or the use of(deep) neural networks \cite{r33};\cite{r01}; \cite{r02}; \cite{r11}; \cite{r16}; \cite{r08}. While in the first case manually selected features are combined into input vectors and directly used for classification, neural network approaches are supposed to automaticallylearn abstract features above these input features. Neural network approaches appear to be more effective for learning \cite{r06}, whilefeature-based approaches preserve some sort ofexplainability. We focus in this paper on baselines using deep neural networks (e.g. CNN andBi-LSTM) and shallow learners, such as LogisticRegression approaches on word n-grams and character n-grams.\\\\
-\textbf{Ensemble learning.} \cite{r06} studied advantages of ensembles of different classifiers. They combined results from threefeature-based classifiers. Further the combinationof results from Logistic Regression and a Neural Network has been studied \cite{r34}; \cite{r35}. Zimmermanet al. \cite{r36} investigated ensembling models withdifferent hyper-parameters. We use a similar approach with a very powerful pretrained model BERT and its variations thereof.
+\textbf{Task definitions.} Toxic comment classification is not clearly distinguishable from its related tasks. Besides looking at toxicity of online comments \cite{r04}; \cite{r05}, related research includes the investigation of hate speech \cite{r02}; \cite{r06}; \cite{r07}; \cite{r08}; \cite{r09}; \cite{r10}; \cite{r11}; \cite{r12}, online harassment \cite{r13}; \cite{r14}, abusive language \cite{r15}; \cite{r16}, cyberbullying \cite{r17}; \cite{r18}; \cite{r19}; \cite{r20} and offensive language \cite{r21}; \cite{r22}. Each field uses different definitions for their classification, still similar methods can often be applied to different tasks. In our work we focus on toxic comment detection and show that the same method can effectively be applied to a hate speech
+ detection task.\\\\
+\textbf{Multi-class approaches.} Besides traditional binary classification tasks, related work considers different aspects of toxic language, such as “racism” \cite{r23}; \cite{r24}; \cite{r25} and “sexism” \cite{r26}; \cite{r27}, or the severity of toxicity \cite{r07}; \cite{r28}. These tasks are framed as multi-class problems, where each sample is labeled with exactly one class out
+of a set of multiple classes. The great majority
+of related research considers only multi-class problems. This is remarkable, considering that in real-world scenarios toxic comment classification
+can often be seen as a multi-label problem, with
+user comments fulfilling different predefined
+criteria at the same time. We therefore investigate
+both a multi-label dataset containing six different
+forms of toxic language and a multi-class dataset
+containing three mutually exclusive classes of
+toxic language.
+\\\\
+\textbf{Shallow classification and neural networks.} Toxic comment identification is a supervised classification task and approached by either methods including manual feature engineering \cite{r06}; \cite{r15};
+\cite{r24}; \cite{r07}; \cite{r29}; \cite{r30}; \cite{r31}; \cite{r32} or the use of
+(deep) neural networks \cite{r33};
+\cite{r01}; \cite{r02}; \cite{r11}; \cite{r16}; \cite{r08}. While in the first case manually selected features are combined into input vectors and directly used for classification, neural network approaches are supposed to automatically
+learn abstract features above these input features. Neural network approaches appear to be more effective for learning \cite{r06}, while
+feature-based approaches preserve some sort of
+explainability. We focus in this paper on baselines using deep neural networks (e.g. CNN and
+Bi-LSTM) and shallow learners, such as Logistic
+Regression approaches on word n-grams and character n-grams.\\\\
+\textbf{Ensemble learning.} \cite{r06} studied advantages of ensembles of different classifiers. They combined results from three
+feature-based classifiers. Further the combination
+of results from Logistic Regression and a Neural Network has been studied \cite{r34}; \cite{r35}. Zimmerman
+et al. \cite{r36} investigated ensembling models with
+different hyper-parameters. We use a similar approach with a very powerful pretrained model BERT and its variations thereof.
 
 \section{Competition Description}
 
@@ -206,8 +230,13 @@ Ensemble [m-BERT + Pre-trained] v3 	& 0.9318  \\
 \end{center}
 \caption{\label{ResultsSummary} Brief summary of our submissions}
 \end{table}
+Despite the fact that, we are currently ranked as 944 out of 1436 teams, our performance is not very far from the current top team (0.9318 compared to 0.9556). 
+
 \section{Conclusion}
 
+In this work, multiple BERT-based model were successfully implemented to identify toxic comments among text data provided by Kaggle's "Jigsaw Multilingual Toxic Comment Classification Challenge". Finally, we create an ensemble of multiple well performing models and present our results. The reported accuracy of the toxic comment identification by our ensemble is certainly promising and provides a good insight into what to expect when dealing with multilingual data.  
+
+For future work, we may try to use the individual words embedding generated by BERT, and possibly pass them through a couple of Bi-LSTM layers. Furthermore, we may incorporate position embedding to enhance the performance.
 
 
 {\small
